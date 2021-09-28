@@ -1,0 +1,246 @@
+/* &display=swap&subset=cyrillic-ext */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	font-family: "Times New Roman", Times, serif;
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* ----------------------------------------- */
+
+.header {
+	outline: 2px solid #000;
+}
+.top {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.logo {
+	padding: 10px;
+	margin: 0px 100px 0 40px;
+}
+
+.topheader {
+	display: inline-block;
+}
+
+.topheader li {
+	display: inline-block;
+	padding: 10px;
+	margin: 10px 190px 0 10px;
+	box-shadow: -2px -2px 5px 3px rgba(40, 40, 185, 0.6), inset 1px 1px 5px 3px rgba(79, 79, 240, 0.8);
+	border-radius: 15px;
+	opacity: 0.8;
+}
+
+.topheader a {
+	color: #b22222;
+	display: inline-block;
+	border-bottom: 2px solid #000;
+}
+
+.person img {
+	margin: 0 0 0 10px;
+}
+
+.bottom {
+	font-size: 18px;
+	font-weight: 400;
+	padding: 8px 0;
+}
+
+.bottomheader {
+	padding: 0 0 0 100px;
+}
+.bottomheader li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0px 55px 0 0;
+	border: 2px dashed #e90606;
+	border-top: 2px dotted #2a15e6;
+	border-right: none;
+	border-left: none;
+	border-radius: 20px;
+	box-shadow: 0px 0px 3px 3px #dbd806, inset 0px 0px 3px 3px #66df21;
+}
+
+.bottomheader a {
+	color: #808080;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	padding: 30px 0;
+	width: 700px;
+	margin: auto 0px 0 120px;
+}
+.superburger {
+	font-size: 18px;
+	font-weight: 500;
+	text-align: justify;
+	padding: 10px 100px;
+}
+.superburger img {
+	box-shadow: 0px 0px 15px 10px #353346;
+	border-radius: 150px;
+}
+.photo {
+	font-weight: 400;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	margin: 0 500px 0 auto;
+}
+.photo p {
+	padding: 15px 0 0 0;
+	color: #3f3f3f;
+}
+.text {
+	margin: 0 0 20px 0;
+	box-shadow: inset 3px 3px 50px 10px #2a15e6;
+}
+h2 {
+	font-size: 28px;
+	font-weight: 700;
+	margin: 0 0 30px 0;
+}
+.classicburger {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: justify;
+	padding: 10px 100px;
+}
+.classicburger p {
+	margin: 0 0 10px 0;
+}
+.ingredients {
+	opacity: 0.6;
+}
+
+.classicburger img {
+	box-shadow: 0px 0px 10px 10px #252325;
+	border-radius: 48% 52% 21% 79% / 64% 24% 76% 36%;
+}
+h3 {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0 0 10px 0;
+	outline: 2px dashed #66df21;
+}
+.cooking p {
+	margin: 0 0 10px 0;
+	border: 2px dotted #000;
+	box-shadow: -5px 5px 5px 3px#2bc740;
+	border-radius: 10px;
+}
+.farsh {
+	border-bottom: 3px solid #000000;
+	border-top: 3px dotted #3b0d0d;
+	border-right: 3px double #104d15;
+	border-left: 3px dashed #daeb40;
+}
+.sause {
+	visibility: hidden;
+}
+.fishburger img {
+	border-radius: 88% 12% 70% 30% / 56% 77% 23% 44%;
+}
+.fishburger .photo p {
+	margin: 0 0 10px 0;
+	padding: 20px 0 0 80px;
+}
+
+.meatburger h2 {
+	border-bottom: 6px double #b22222;
+}
+.meatburger img {
+	border: 3px solid #dbd806;
+	border-radius: 450px 500px 0px 380px;
+	box-shadow: 10px -20px 15px 10px #dbd806;
+}
+.meatburger .photo {
+	margin: 0 auto;
+}
+footer {
+	font-size: 20px;
+	padding: 10px;
+}
+p.title {
+	font-size: 28px;
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+.one {
+	background-color: darkorange;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 0 50px 0;
+}
+.two {
+	opacity: 0.5;
+	margin: 0 0 50px 0;
+}
+.three span {
+	display: inline-block;
+	border: 3px solid #22b9ff;
+	margin: 0 0 50px 0;
+}
+.four {
+	border-top: 5px solid #000;
+	border-right: 5px dashed #ff0000;
+	border-bottom: 5px dotted #1900ff;
+	border-left: 5px double #ffbb00;
+	margin: 0 0 50px 0;
+}
+footer a {
+	display: inline-block;
+	margin: 50px;
+	color: #ff22f4;
+	box-shadow: -5px -5px 15px 10px #919191;
+}
